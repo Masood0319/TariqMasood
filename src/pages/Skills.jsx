@@ -13,7 +13,6 @@ const skills = [
       { name: "Express", level: 84, icon: "E" },
       { name: "MongoDB", level: 82, icon: "M" },
       { name: "JavaScript", level: 90, icon: "JS" },
-      { name: "TypeScript", level: 78, icon: "TS" },
     ],
   },
   {
@@ -23,7 +22,6 @@ const skills = [
       { name: "HTML5", level: 92, icon: "H5" },
       { name: "CSS3", level: 88, icon: "C3" },
       { name: "Next.js", level: 76, icon: "NX" },
-      { name: "Redux", level: 74, icon: "RX" },
       { name: "Figma", level: 70, icon: "FG" },
     ],
   },
@@ -32,7 +30,6 @@ const skills = [
     skills: [
       { name: "Git", level: 86, icon: "G" },
       { name: "GitHub", level: 84, icon: "GH" },
-      { name: "Docker", level: 72, icon: "DK" },
       { name: "Postman", level: 80, icon: "PM" },
       { name: "VS Code", level: 92, icon: "VS" },
       { name: "Linux", level: 78, icon: "LX" },
@@ -42,11 +39,7 @@ const skills = [
     title: "AI & Beyond",
     skills: [
       { name: "Python", level: 74, icon: "PY" },
-      { name: "Firebase", level: 70, icon: "FB" },
       { name: "Vercel", level: 78, icon: "VC" },
-      { name: "AWS", level: 68, icon: "AW" },
-      { name: "Nginx", level: 62, icon: "NG" },
-      { name: "Jest", level: 65, icon: "JS" },
     ],
   },
 ];
