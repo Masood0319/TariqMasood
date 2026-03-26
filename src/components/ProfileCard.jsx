@@ -6,7 +6,7 @@ const ProfileCard = () => {
     { label: "role", value: "Full-Stack Engineer" },
     { label: "stack", value: "MERN · REST · GraphQL" },
     { label: "focus", value: "SaaS + LLM Platforms" },
-    { label: "location", value: "Rawalpindi, PK" },
+    { label: "location", value: "Mardan, KP, PK" },
     { label: "status", value: "Open to Remote Roles" },
     { label: "repos", value: "14 public projects" },
   ];
