@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-midnight text-slate-200 font-display antialiased;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.glass {
+  @apply bg-glass backdrop-blur-xl border border-white/10;
+}
+
+.glow-border {
+  box-shadow:
+    0 0 0 1px rgba(34, 211, 238, 0.2),
+    0 0 24px rgba(34, 211, 238, 0.25);
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(120deg, #22d3ee 0%, #38bdf8 35%, #818cf8 70%);
+}
+
+.section-spacing {
+  @apply py-16 md:py-24;
+  scroll-margin-top: 96px;
+}
+
+.card-grid {
+  @apply grid gap-6 md:gap-8;
+}
+
+.glow-button {
+  position: relative;
+  isolation: isolate;
+}
+
+.glow-button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: radial-gradient(circle at center, rgba(34, 211, 238, 0.35), transparent 60%);
+  z-index: -1;
+}
+
+.glow-button:hover::after {
+  opacity: 1;
+}
+
+.neon-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.5), transparent);
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.3);
+  color: white;
+}
