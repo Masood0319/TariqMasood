@@ -28,7 +28,7 @@ const About = () => {
                     My Journey
                   </p>
                   <p className="mt-3">
-                    I&apos;m a Full-Stack Engineer based in Rawalpindi, Pakistan,
+                    I&apos;m a Full-Stack Engineer based in KP, Pakistan,
                     specializing in production-ready web applications with the
                     MERN stack. I started by obsessing over clean UI and quickly
                     moved into backend systems, building full products end to end.
