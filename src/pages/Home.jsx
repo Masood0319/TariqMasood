@@ -18,7 +18,7 @@ const Home = () => {
         <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
           <div>
             <p className="text-xs uppercase tracking-[0.4em] text-cyan-300">
-              Rawalpindi, Pakistan
+              Mardan, KP, Pakistan
             </p>
             <h1 className="mt-4 text-4xl font-semibold leading-tight text-white md:text-5xl lg:text-6xl">
               Tariq Masood
